@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+</body>
+<script>
+    // FOR LOOP EXAMPLES
+
+    // 1. FOR LOOP - Counting from 1 to 10
+    for (let i = 0; i <= 10; i++) {
+        console.log(i)
+    }
+
+
+    console.log("__________________________________________")
+
+    // 2. Printing all even numbers from 1 to 20
+    for (let i = 1; i <= 20; i++) {
+        if (i % 2 === 0) {
+            console.log(i)
+        }
+    }
+    console.log("__________________________________________")
+
+
+
+    // 3. Multiplication table of 5
+    for (let i = 1; i <= 10; i++) {
+        console.log(i * 5)
+    }
+    console.log("____________________________________________")
+
+
+
+    // 4. Sum of numbers from 1 to 50
+    let sum = 0
+    for (let i = 1; i <= 50; i++) {
+        sum += i
+    }
+    console.log("Sum of numbers from 1 to 50 : " + sum)
+    console.log("_____________________________________________")
+
+
+
+    // 5. Printing numbers in reverse order
+    for (let i = 10; i >= 1; i--) {
+        console.log("Numbers in Reverse order is : " + i)
+    }
+    console.log("______________________________________________")
+
+    //WHILE LOOP
+    // 1. Ptinting all numbers from 1 to 10 using while loop
+
+    let j = 1
+    while (j <= 10) {
+        console.log(j)
+        j++
+    }
+    console.log("______________________________________________")
+
+
+    // 2. Printing all numbers from 1 to 20
+    let k = 1
+    while (k <= 20) {
+        if (k % 2 !== 0) {
+            console.log(k)
+        }
+        k++
+    }
+    console.log("_____________________________________________")
+
+    // 3. Calculate the sum of numbers from 1 to 100 using while loop
+    let total = 0
+    let f = 1
+    while (f <= 100) {
+        total += f
+        f++
+    }
+    console.log("Sum from 1 to 100 : " + total)
+
+    console.log("______________________________________________")
+
+    // 4. Printing numbers in reverse order
+    let s = 10
+    while (s >= 1) {
+        console.log("In reverse order : " + s)
+        s--
+    }
+    console.log("______________________________________________")
+
+    // 5. Creat a password checker that keep asking the user until they enter the correct pass (admin123)
+    let password = "";
+    const correctPassword = "admin123";
+
+    while (password !== correctPassword) {
+        password = prompt("Enter the password:");
+    }
+    console.log("Password is correct .")
+
+
+
+</script>
+
+</html>
